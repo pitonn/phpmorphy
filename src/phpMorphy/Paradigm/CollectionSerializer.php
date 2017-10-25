@@ -42,7 +42,7 @@ class phpMorphy_Paradigm_CollectionSerializer {
      * @param bool $asText
      * @return array
      */
-    protected function processParadigm(phpMorphy_Paradigm_Interface $paradigm, $asText) {
+    protected function processParadigm(phpMorphy_Paradigm_ParadigmInterface $paradigm, $asText) {
         $forms = array();
         $all = array();
 
